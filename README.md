@@ -36,7 +36,7 @@ Incluye los scripts de creación de tablas y carga de datos, junto con ejercicio
 Antes de cargar la base de datos, asegúrate de tener lo siguiente instalado y configurado:
 
 - **Laragon** con MySQL (para ejecutar el motor de base de datos).  
-- **HeidiSQL** (gestor gráfico de bases de datos) para conectarte fácilmente a MySQL y ejecutar los scripts.  
+- **HeidiSQL** (gestor gráfico de bases de datos que viene incluido en Laragon) para conectarte fácilmente a MySQL y ejecutar los scripts.  
 
 👉 Todos los ejercicios y prácticas se trabajarán **bajo el entorno MySQL de Laragon**, utilizando **HeidiSQL** como cliente de administración.
 
@@ -69,5 +69,6 @@ Sigue estos pasos de manera ordenada para tener la base de datos lista en tu ent
 4. **Crear la base de datos**  
    Dentro de una pestaña de consulta en HeidiSQL escribe:  
    ```sql
-   CREATE DATABASE employee_db;
-   USE employee_db;
+   -- Create data base
+    CREATE DATABASE company;
+    USE company; 

@@ -1,3 +1,7 @@
+-- Create data base
+CREATE DATABASE company;
+USE company; 
+
 -- Departments table
 CREATE TABLE
     departments (
