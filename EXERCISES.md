@@ -92,6 +92,19 @@ Debes resolver cada ejercicio utilizando la base de datos **COMPANY** en tu ento
 
 ---
 
+### 📌  - Empleados con su salario y proyectos
+**Enunciado:**  
+Mostrar el nombre de cada empleado junto con su salario y la lista de proyectos en los que participa. 
+**Salida esperada (ejemplo):**
+Juan; 2000; Proyecto1, Proyecto2
+María; 2500; Proyecto3
+
+### 📌  - Proyectos sin empleados asignados (usando `EXISTS`)
+**Enunciado:**  
+Listar los proyectos que no tienen empleados asignados, utilizando la cláusula `EXISTS`.  
+
+---
+
 ✍️ **Recomendaciones:**  
 - Intenta resolver primero en papel cada consulta, pensando en las relaciones entre tablas.  
 - Luego prueba el SQL en tu entorno Laragon.  
